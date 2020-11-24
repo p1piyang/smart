@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:text="经典刷新头"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="classicsClick"/>
+    <Button
+        android:text="雷达刷新头"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="radarClick"/>
+    <Button
+        android:text="虚拟刷新头"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="falsifyClick"/>
+    <Button
+        android:text="谷歌刷新头"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="materialClick"/>
+    <Button
+        android:text="二级刷新头"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="twoLevelClick"/>
+
+
+</LinearLayout>
