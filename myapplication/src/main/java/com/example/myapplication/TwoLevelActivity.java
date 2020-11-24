@@ -20,6 +20,6 @@ public class TwoLevelActivity extends AppCompatActivity {
         setContentView(R.layout.activity_two_level);
         layout = findViewById(R.id.twolevel_layout);
         layout.setRefreshHeader(new TwoLevelHeader(this));
-
+        System.out.println("aaa");
     }
 }
